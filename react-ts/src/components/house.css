@@ -1,0 +1,37 @@
+.houstList{
+  padding: 0;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.houstList .houseItem{
+  list-style: none;
+  width: 50%;
+  padding: 20px;
+  margin-bottom: 25px;
+  display: flex;
+}
+.houseItem .houseImg{
+  display: block;
+  margin-right: 20px;
+}
+.houseItem .houseInfo{
+  flex: 1;
+  overflow: hidden;
+}
+.houseItem .houseInfo p{
+  font-size: 16px;
+}
+.houseItem .houseInfo .housePrice{
+  color: #eb5f00;
+}
+.houseItem .houseTag .tag{
+  display: inline-block;
+  background-color: #f2f6ed;
+  color: #799374;
+  padding: 0 10px;
+  line-height: 22px;
+  font-size: 14px;
+  margin-right: 10px;
+  border-radius: 16px;
+}
